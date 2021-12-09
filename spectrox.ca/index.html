@@ -1,90 +1,16 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Buttons.css">
-    <link rel="stylesheet" href="assets/css/scrollbar.css">
-</head>
-
-<body id="page-top">
-    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#">Spectrox.CA</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
-                value="Menu"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link active js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#download">NextCloud</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header class="masthead" style="background-image: url(&quot;assets/img/background.png&quot;);">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading" style="background-color: rgba(0,0,0,0.5);">Spectrox</h1>
-                        <p class="intro-text" style="background-color: rgba(0,0,0,0.25);">A Place For Me To Tinker</p><a class="btn btn-link btn-circle" role="button" style="color: rgb(255,255,255);"><i class="fa fa-angle-double-down animated"></i></a></div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section id="about" class="content-section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>About Spectrox.ca</h2>
-                    <p>Welcome to my website, here you will find some of my current projects as well as my nextcloud server. Feel free to roam around and dont hesitate to contact me if you have any questions.</p>
-                    <p>.<br>.<br>.</p>
-                    <p>Still a work in progress. Please message me on Discord about any bugs.</p>
-                    <p></p>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="download" class="download-section content-section text-center" style="background-image: url(&quot;assets/img/background.png&quot;);">
-        <div class="container">
-            <div class="col-lg-8 col-xl-7 mx-auto">
-                <h1 style="background-color: rgba(0,0,0,0.51);">Visit My NExtcloud</h1>
-                <p style="background-color: rgba(0,0,0,0.25);">You can visit my nextcloud server by clicking the button below</p><button class="btn btn-primary btn-lg btn-default" type="button" onclick="window.location.href=&#39;https://nc.spectrox.ca&#39;;" style="background-color: #ffffff;">visit Nextcloud page</button></div>
-        </div>
-    </section>
-    <section id="contact" class="content-section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Contact ME</h2>
-                    <p>Feel free to contact me if you have any questions or concerns.</p>
-                    <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-default" type="button" onclick="window.location.href=&#39;https://discord.gg/jXWp9Wj&#39;;" style="margin: -4px;height: 48px;"><i class="fab fa-discord fa-fw" style="height: 20px;"></i><span class="network-name" style="font-size: 20px;">&nbsp; DISCORD</span></button></li>
-                        <li
-                            class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-twitter fa-fw"></i><span class="network-name" onclick="window.location.href=&#39;https://twitter.com/JulienWestman&#39;;">&nbsp;Twitter</span></button></li>
-                            <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-github fa-fw"></i><span class="network-name" onclick="window.location.href=&#39;https://github.com/Spectroxx&#39;;">&nbsp;github</span></button></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer style="background-color: #000000;">
-        <div class="container text-center">
-            <p>Copyright ©&nbsp;Julien Westman 2021</p>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
-</body>
+<script src="assets/js/include.js"></script>
+<div include="assets/elements/head.html"></div>
+<div include="assets/elements/body.html"></div>
+<div include="assets/elements/footer.html"></div>
+<script>
+    includeHTML();
+</script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
 
 </html>

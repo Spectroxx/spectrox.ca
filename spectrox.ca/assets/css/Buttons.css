@@ -8,22 +8,13 @@
   color: #ffffff;
   background-color: #ffffff;
   border-color: #ffffff;
-}
-
-.btn-default:focus, .btn-default:hover {
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  outline: none;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(255,255,255,0.5);
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  border-color: #51ff00;
+  outline: none;
 }
 
